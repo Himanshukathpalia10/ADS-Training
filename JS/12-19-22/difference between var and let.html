@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Redeclaring a Variable Using var</h2>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+let  x = 10;
+var y=10;
+// Here x is 10
+
+{  
+    // this gives error in console because let is having block scope.
+    let x=2;
+    var y = 2;
+// Here x is 2
+}
+
+// Here x is 2
+document.getElementById("demo").innerHTML = x;
+document.getElementById("demo1").innerHTML= y;
+</script>
+
+</body>
+</html>
