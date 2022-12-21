@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2>Array methods</h2>
+        <p>this shift method is used to remove the starting element the array.</p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <script>
+            const fruits=["apple","mango","orange","kiwi"]
+            document.getElementById("demo1").innerHTML=fruits;
+            fruits.shift();
+            document.getElementById("demo2").innerHTML=fruits;
+            // this will return the element which is shifted.
+            document.getElementById("demo3").innerHTML=fruits.shift("avacado");
+            document.getElementById("demo4").innerHTML=fruits;
+        </script>
+    </body>
+</html>
