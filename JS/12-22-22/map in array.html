@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h2>map function in array</h2>
+        <p id="demo"></p>
+        <script>
+            const number=[40,10,8,20,5]
+            const number1=number.map(myfunction)
+
+            document.getElementById("demo").innerHTML=number1
+
+            function myfunction(value,index,array){
+                return value*3
+            }
+        </script>
+    </body>
+</html>

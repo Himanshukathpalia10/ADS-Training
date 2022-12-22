@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h2>reduce function in array</h2>
+        <p id="demo"></p>
+        <script>
+            // reduce function will work from left to right
+            const numbers=[40,20,3,50,2]
+            const numbers1=numbers.reduce(myfunction)
+
+            document.getElementById("demo").innerHTML=numbers1;
+
+            function myfunction(total,value,index,array){
+                return total+value
+            }
+        </script>
+    </body>
+</html>
