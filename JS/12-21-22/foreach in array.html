@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <p id="demo">
+            <script>
+                const fruits=["Banana","Apple","kiwi","Mango"]
+                let text="<ul>";
+                fruits.forEach(myfunction);
+                text+="</ul>"
+                function myfunction(values){
+                    text+="<li>"+values+"</li>"
+                }
+                document.getElementById("demo").innerHTML=text;
+            </script>
+        </p>
+    </body>
+</html>

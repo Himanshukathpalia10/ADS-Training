@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2>Array methods</h2>
+        <p>this unshift method is used to add an element into the array.</p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <script>
+            const fruits=["apple","mango","orange","kiwi"]
+            document.getElementById("demo1").innerHTML=fruits;
+            fruits.unshift("banana");
+            document.getElementById("demo2").innerHTML=fruits;
+            // this will return the length of the array
+            document.getElementById("demo3").innerHTML=fruits.unshift("grapes");
+            document.getElementById("demo4").innerHTML=fruits;
+        </script>
+    </body>
+</html>
